@@ -1,7 +1,7 @@
 # Lab Report 1
 
 1. 
-![Image](CSE15L-Lab1-Q1)
+![Image](CSE15L-Lab1-Q1.png)
 The working directory of these commands is /home.
 For the cd command, having no arguments just means that there is no change to the directory. This is not an error.
 For the ls command, having no arguments prompts the listing of files in the current working directory. This also is not an error.
