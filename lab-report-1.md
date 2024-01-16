@@ -7,7 +7,7 @@ For the `cd` command, having no arguments just means that there is no change to 
 For the `ls` command, having no arguments prompts the listing of files in the current working directory. This also is not an error.
 For the `cat` command, having no arguments causes the terminal to continue asking for arguments in a loop. This causes an error since the `cat` command will cause the terminal to not be able to exit the code.
 
-2. 
+2.
 ![Image](CSE15L-Lab1-Q2.png)
 The working directory of these commands is `home`.
 For the `ls` command, having the directory `lecture1` as the argument prompts the listing of listing of files and folders in `lecture1`. This is not an error.
