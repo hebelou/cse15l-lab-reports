@@ -1,15 +1,22 @@
 import java.io.IOException;
 import java.net.URI;
+import java.IO.BufferedWriter;
+import java.IO.FileWriter;
+Import java.IO.File;
 
 class ChatHandler implements URLHandler{
 
   public String handleRequest(URI url){
     String query = url.getQuery();
     if(url.getPath().equals("/add-message")){
-      if(query.startsWith("s="))
+      if(query.startsWith("s=")){
+        String[] parameters = url.getQuery().split("&");
+        String message = parameters[0].split("=")[1];
+        String user = parameters[1].split("=")[1];
+      }
       
     }else{
-      return "Error!"
+      return "Error"
     }
   }
 }
@@ -20,7 +27,6 @@ class ChatServer {
       System.out.println("Missing port number! For the port number, try any number between 1024 to 49151.");
       return;
     }
-    
     int port = Integer.parseInt(args[0]);
     Server.start(port, new ChatHandler());
   }
