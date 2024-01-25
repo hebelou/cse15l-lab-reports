@@ -1,11 +1,8 @@
 import java.io.IOException;
 import java.net.URI;
-import java.IO.BufferedWriter;
-import java.IO.FileWriter;
-Import java.IO.File;
 
 class ChatHandler implements URLHandler{
-
+  String chatHistory = "";
   public String handleRequest(URI url){
     String query = url.getQuery();
     if(url.getPath().equals("/add-message")){
@@ -13,8 +10,9 @@ class ChatHandler implements URLHandler{
         String[] parameters = url.getQuery().split("&");
         String message = parameters[0].split("=")[1];
         String user = parameters[1].split("=")[1];
+        this.chatHistory += user + ": " + message + "\n\n";
+        return this.chatHistory;
       }
-      
     }else{
       return "Error"
     }
