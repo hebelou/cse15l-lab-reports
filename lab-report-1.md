@@ -3,7 +3,7 @@
 1. 
 ![Image](CSE15L-Lab1-Q1.png)
 The working directory of these commands is `/home`.
-For the `cd` command, having no arguments changes the working directory to the home directory. This is not an error.
+For the `cd` command, having no arguments changes the working directory to the home directory regardless of where the original directory was. This is not an error.
 For the `ls` command, having no arguments prompts the listing of files in the current working directory. This also is not an error.
 For the `cat` command, having no arguments causes the terminal to continue asking for arguments in a loop. This causes an error since the `cat` command will cause the terminal to not be able to exit the code. The user has to use `Control-C` to exit the processs. 
 
