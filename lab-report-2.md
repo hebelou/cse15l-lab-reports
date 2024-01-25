@@ -10,11 +10,13 @@ class ChatHandler implements URLHandler{
         String[] parameters = url.getQuery().split("&");
         String message = parameters[0].split("=")[1];
         String user = parameters[1].split("=")[1];
-        this.chatHistory += user + ": " + message + "\n\n";
+        this.chatHistory += user + ": " + message + "\n";
         return this.chatHistory;
+      }else{
+        return "Error";
       }
     }else{
-      return "Error"
+      return "Error";
     }
   }
 }
