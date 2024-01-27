@@ -1,5 +1,5 @@
 # Lab Report 2
-/n
+```
 import java.io.IOException;
 import java.net.URI;
 
@@ -33,3 +33,4 @@ class ChatServer {
     Server.start(port, new ChatHandler());
   }
 }
+```
