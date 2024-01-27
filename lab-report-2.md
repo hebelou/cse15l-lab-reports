@@ -1,4 +1,5 @@
 # Lab Report 2
+1. 
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -34,3 +35,7 @@ class ChatServer {
   }
 }
 ```
+![Image](CSE15L-Lab2-Q1.1.png)
+
+
+![Image](CSE15L-Lab2-Q1.2.png)
