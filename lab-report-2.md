@@ -18,7 +18,7 @@ class ChatHandler implements URLHandler{
         return "Error";
       }
     }else{
-      return "Error";
+      return this.chatHistory;
     }
   }
 }
