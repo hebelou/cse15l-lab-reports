@@ -36,6 +36,6 @@ class ChatServer {
 }
 ```
 ![Image](CSE15L-Lab2-Q1.1.png)
-
+The main method and handleRequest method are called. 
 
 ![Image](CSE15L-Lab2-Q1.2.png)
