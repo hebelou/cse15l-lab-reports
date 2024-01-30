@@ -36,16 +36,16 @@ class ChatServer {
 }
 ```
 ![Image](CSE15L-Lab2-Q1.1.png)
-The main method and handleRequest method are called. The relevant arguments are `url` and `/add-message`. The relevant values are that `user` = `jpolitz`, `message`  = `Hello`, `chatHistory`, and 'url'. Since each of the strings were just created, the values were changed from null to the relevant values that were entered.
+The main method and handleRequest method are called. The relevant arguments are `url` and `/add-message`. The relevant values are that `user` = `jpolitz`, `message`  = `Hello`, `chatHistory`, and `url`. Since each of the strings were just created, the values were changed from null to the relevant values that were entered.
 <br>
 ![Image](CSE15L-Lab2-Q1.2.png)
-The main method and handleRequest method are called. The relevant arguments are `url` and `/add-message`. The revelant values are that `user` = `yash`, `message` = `How+are+you`, `chatHistory`, and `url`. Since each of these relevant values were updated after the first entry, `user` changes from `jpolitz` to `yash, `message` changes from `Hello` to `How+are+you`, the new message is added to `chatHistory`, and a new value for `url` is generated.  
+The main method and handleRequest method are called. The relevant arguments are `url` and `/add-message`. The revelant values are that `user` = `yash`, `message` = `How+are+you`, `chatHistory`, and `url`. Since each of these relevant values were updated after the first entry, `user` changes from `jpolitz` to `yash`, `message` changes from `Hello` to `How+are+you`, the new message is added to `chatHistory`, and a new value for `url` is generated.  
 <br>
 
 2. 
 ![Image](CSE15L-Lab2-Q2.1.png)
 Using VSCode on my computer, the first file is the absolute path to my private key, the second file is the absolute file to my public key ending in `.pub`. 
-![Image](CSE15L-Lab2-Q2.3.png)
+![Image](CSE15L-Lab2-Q2-3.png)
 Using VSCode on my computer, this is an instance of logging into my ieng6 account without having to enter my password. 
 
 3. 
