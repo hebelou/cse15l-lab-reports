@@ -44,3 +44,6 @@ The main method and handleRequest method are called. The relevant arguments are 
 
 2. 
 
+
+3. 
+These two weeks I learned how to `ssh` into my remote CSE15L account using the terminal, whether it is in a EdStem workspace or VSCode. I also learned how to set up a server, and that I am able to go and change values of a remote webpage.
