@@ -44,9 +44,11 @@ The main method and handleRequest method are called. The relevant arguments are 
 
 2. 
 ![Image](CSE15L-Lab2-Q2.1.png)
-Using VSCode on my computer, the first file is the absolute path to my private key, the second file is the absolute file to my public key ending in `.pub`. 
+Using VSCode on my computer, the first file is the absolute path to my private key, the second file is the absolute file to my public key ending in `.pub`.
+<br>
 ![Image](CSE15L-Lab2-Q2-3.png)
 Using VSCode on my computer, this is an instance of logging into my ieng6 account without having to enter my password. 
+<br>
 
 3. 
 These two weeks I learned how to `ssh` into my remote CSE15L account using the terminal, whether it is in a EdStem workspace or VSCode. I also learned how to set up a server, and that I am able to go and change values of a remote webpage.
