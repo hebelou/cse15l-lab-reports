@@ -40,4 +40,7 @@ The main method and handleRequest method are called. The relevant arguments are 
 <br>
 ![Image](CSE15L-Lab2-Q1.2.png)
 The main method and handleRequest method are called. The relevant arguments are `url` and `/add-message`. The revelant values are that `user` = `yash`, `message` = `How+are+you`, `chatHistory`, and `url`. Since each of these relevant values were updated after the first entry, `user` changes from `jpolitz` to `yash, `message` changes from `Hello` to `How+are+you`, the new message is added to `chatHistory`, and a new value for `url` is generated.  
+<br>
+
+2. 
 
