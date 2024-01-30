@@ -1,5 +1,5 @@
 # Lab Report 2
-1. 
+1.  
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -42,7 +42,7 @@ The main method and handleRequest method are called. The relevant arguments are 
 The main method and handleRequest method are called. The relevant arguments are `url` and `/add-message`. The revelant values are that `user` = `yash`, `message` = `How+are+you`, `chatHistory`, and `url`. Since each of these relevant values were updated after the first entry, `user` changes from `jpolitz` to `yash`, `message` changes from `Hello` to `How+are+you`, the new message is added to `chatHistory`, and a new value for `url` is generated.  
 
 
-2.  
+2.   
 ![Image](CSE15L-Lab2-Q2.1.png)
 Using VSCode on my computer, the first file is the absolute path to my private key, the second file is the absolute file to my public key ending in `.pub`.
 
@@ -50,5 +50,5 @@ Using VSCode on my computer, the first file is the absolute path to my private k
 Using VSCode on my computer, this is an instance of logging into my `ieng6` account without having to enter my password. 
 
 
-3.  
+3.   
 These two weeks I learned how to `ssh` into my remote CSE15L account using the terminal, whether it is in a EdStem workspace or VSCode. I also learned how to set up a server, and that I am able to go and change values of a remote webpage.
