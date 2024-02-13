@@ -43,7 +43,9 @@ The `main` method and `handleRequest` method are called. The relevant arguments 
 
 ## Part 2 
 ![Image](CSE15L-Lab2-Q2.1.png)
-Using VSCode on my computer, the first file is the absolute path to my private key, the second file is the absolute file to my public key ending in `.pub`.
+Using VSCode on my computer, the first file is the absolute path to my private key
+![Image](CSE15L-Lab2-Q2.2.png)
+Using VSCode on my computer, the second file is the absolute file to my public key ending in `.pub`.
 
 ![Image](CSE15L-Lab2-Q2-3.png)
 Using VSCode on my computer, this is an instance of me logging into my `ieng6` account without having to enter my password. 
