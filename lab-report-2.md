@@ -36,10 +36,10 @@ class ChatServer {
 }
 ```
 ![Image](CSE15L-Lab2-Q1.1.png)
-The `main` method and `handleRequest` method are called. The relevant arguments are `3456` for `args` and the url entered for `url`. The relevant values are that `user` = `jpolitz`, `message`  = `Hello`, and `url`. The relevant class field is `chatHistory`. Since each of the strings were just created, all of the values of each field were changed from null to the values that were entered. Therefore `chatHistory` was just changed from null to `jpolitz: hello`.
+The `main` method and `handleRequest` method are called. The relevant arguments are `3456` for `args` and the url entered for `url`. The relevant values are that `user` = `jpolitz`, `message`  = `Hello`, and `url`. The relevant field of the class is `chatHistory`. Since each of the strings were just created, all of the values of each field were changed from null to the values that were entered. Therefore `chatHistory` was just changed from null to `jpolitz: hello`.
 
 ![Image](CSE15L-Lab2-Q1.2.png)
-The `main` method and `handleRequest` method are called. The relevant arguments are `3456` for `args` and the url entered for `url`. The revelant values are that `user` = `yash`, `message` = `How+are+you`, and `url`. The relevant class field is `chatHistory`. Since each of these relevant values were updated after the first entry, `user` changes from `jpolitz` to `yash`, `message` changes from `Hello` to `How+are+you`, `chatHistory` changes from `jpolitz: hello` to `jpolitz: hello/n/n yash: How+are+you`, and a new url for `url` is generated.  
+The `main` method and `handleRequest` method are called. The relevant arguments are `3456` for `args` and the url entered for `url`. The revelant values are that `user` = `yash`, `message` = `How+are+you`, and `url`. The relevant field of the class is `chatHistory`. Since each of these relevant values were updated after the first entry, `user` changes from `jpolitz` to `yash`, `message` changes from `Hello` to `How+are+you`, `chatHistory` changes from `jpolitz: hello` to `jpolitz: hello/n/n yash: How+are+you`, and a new url for `url` is generated.  
 
 ## Part 2 
 ![Image](CSE15L-Lab2-Q2.1.png)
