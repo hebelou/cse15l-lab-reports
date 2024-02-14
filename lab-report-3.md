@@ -64,7 +64,21 @@ Prints out
 ./technical//biomed
 ./technical//911report
 ```
-This prints out all of the directories under `./technical/` including nested directories, aiding the understanding on `./technical/`. 
+Similarly
+```
+find ./technical/government -type d
+```
+Prints out
+```
+./technical/government
+./technical/government/About_LSC
+./technical/government/Env_Prot_Agen
+./technical/government/Alcohol_Problems
+./technical/government/Gen_Account_Office
+./technical/government/Post_Rate_Comm
+./technical/government/Media
+```
+This prints out all of the directories under the specified directory, including nested directories, aiding the understanding on that directory. 
 [1](https://snapshooter.com/learn/linux/find)
 
 The command
@@ -78,7 +92,19 @@ Prints out
 ./technical//government/Alcohol_Problems/DraftRecom-PDF.txt
 ./technical//government/Alcohol_Problems/Session4-PDF.txt
 ```
-This prints out the files with the extension `.txt` and has `-PDF` in their file name. This can help filter out certain wanted files from all the other files. 
+Similarly 
+```
+find ./technical/ -name "journal.pbio.002004*.txt"
+```
+Prints out
+```
+./technical//plos/journal.pbio.0020040.txt
+./technical//plos/journal.pbio.0020043.txt
+./technical//plos/journal.pbio.0020042.txt
+./technical//plos/journal.pbio.0020046.txt
+./technical//plos/journal.pbio.0020047.txt
+```
+This prints out the files containing a specified name. This can help filter out certain wanted files from all the other files. 
 [2](https://snapshooter.com/learn/linux/find)
 
 The command 
@@ -96,7 +122,19 @@ Prints out
 ./technical//911report/chapter-13.5.txt
 ./technical//911report/chapter-3.txt
 ```
-This searches in `./technical/` for files that are greater than 200kB, and is useful when needing to find files of a certain size.
+Similarly
+```
+find ./technical/ -size +250k
+```
+Prints out
+```
+./technical//government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
+./technical//government/Gen_Account_Office/d01591sp.txt
+./technical//911report/chapter-13.4.txt
+./technical//911report/chapter-13.5.txt
+./technical//911report/chapter-3.txt
+```
+This searches in `./technical/` for files that are greater than a certain size, and is useful when needing to find files of a certain size.
 [3](https://snapshooter.com/learn/linux/find)
 
 The command 
@@ -111,5 +149,19 @@ Prints out
 ./technical//biomed
 ./technical//911report
 ```
-This prints out all of the files and directories in and 1 level down `./technical/` 
+Similarly
+```
+find ./technical/government -maxdepth 1
+```
+Prints out
+```
+./technical/government
+./technical/government/About_LSC
+./technical/government/Env_Prot_Agen
+./technical/government/Alcohol_Problems
+./technical/government/Gen_Account_Office
+./technical/government/Post_Rate_Comm
+./technical/government/Media
+```
+This prints out all of the files and directories in and a specified level down from `./technical/` 
 [4](https://www.tutorialspoint.com/mindepth-and-maxdepth-in-linux-find-command-for-limiting-search-to-a-specific-directory)
