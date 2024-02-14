@@ -64,7 +64,8 @@ Prints out
 ./technical//biomed
 ./technical//911report
 ```
-This prints out the directories under `./technical/`, aiding the understanding on the directory.
+This prints out all of the directories under `./technical/` including nested directories, aiding the understanding on `./technical/`. 
+[link](https://snapshooter.com/learn/linux/find)
 
 The command
 ```
@@ -78,18 +79,25 @@ Prints out
 ./technical//government/Alcohol_Problems/Session4-PDF.txt
 ```
 This prints out the files with the extension `.txt` and has `-PDF` in their file name. This can help filter out certain wanted files from all the other files. 
+[link](https://snapshooter.com/learn/linux/find)
 
 The command 
 ```
-find ./technical/ -size 100
+Hebes-MacBook-Air:docsearch hebelou$ find ./technical/ -size +200k
 ```
 Prints out
 ```
-./technical//biomed/1471-2377-3-4.txt
-./technical//biomed/gb-2003-4-6-r39.txt
-./technical//biomed/gb-2003-4-3-r20.txt
+./technical//government/About_LSC/commission_report.txt
+./technical//government/Env_Prot_Agen/bill.txt
+./technical//government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.txt
+./technical//government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
+./technical//government/Gen_Account_Office/d01591sp.txt
+./technical//911report/chapter-13.4.txt
+./technical//911report/chapter-13.5.txt
+./technical//911report/chapter-3.txt
 ```
-
+This searches in `./technical/` for files that are greater than 200kB, and is useful when needing to find files of a certain size.
+[link](https://snapshooter.com/learn/linux/find)
 
 The command 
 ```
@@ -103,3 +111,5 @@ Prints out
 ./technical//biomed
 ./technical//911report
 ```
+This prints out all of the files and directories in and 1 level down `./technical/` 
+[link](https://www.tutorialspoint.com/mindepth-and-maxdepth-in-linux-find-command-for-limiting-search-to-a-specific-directory)
