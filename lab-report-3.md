@@ -41,6 +41,6 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-The original code just replaces the first half of the array with the latter half of the array, essentially reflecting it since the replaced number is not saved. This fixed code addresses that issue by creating another variable to store the replaced number and uses that to do the switch.  
+The original code just replaces the first half of the array with the latter half of the array, essentially reflecting it since the replaced number is not saved. This fixed code addresses that issue by creating another variable to store the replaced number and uses that to do the switch. It also halves the amount of times the switch is done so that a properly reversed array isn't reversed back into its original array.  
 
 ## Part 2
