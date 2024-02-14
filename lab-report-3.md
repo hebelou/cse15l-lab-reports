@@ -65,7 +65,7 @@ Prints out
 ./technical//911report
 ```
 This prints out all of the directories under `./technical/` including nested directories, aiding the understanding on `./technical/`. 
-[link](https://snapshooter.com/learn/linux/find)
+[1](https://snapshooter.com/learn/linux/find)
 
 The command
 ```
@@ -79,7 +79,7 @@ Prints out
 ./technical//government/Alcohol_Problems/Session4-PDF.txt
 ```
 This prints out the files with the extension `.txt` and has `-PDF` in their file name. This can help filter out certain wanted files from all the other files. 
-[link](https://snapshooter.com/learn/linux/find)
+[2](https://snapshooter.com/learn/linux/find)
 
 The command 
 ```
@@ -97,7 +97,7 @@ Prints out
 ./technical//911report/chapter-3.txt
 ```
 This searches in `./technical/` for files that are greater than 200kB, and is useful when needing to find files of a certain size.
-[link](https://snapshooter.com/learn/linux/find)
+[3](https://snapshooter.com/learn/linux/find)
 
 The command 
 ```
@@ -112,4 +112,4 @@ Prints out
 ./technical//911report
 ```
 This prints out all of the files and directories in and 1 level down `./technical/` 
-[link](https://www.tutorialspoint.com/mindepth-and-maxdepth-in-linux-find-command-for-limiting-search-to-a-specific-directory)
+[4](https://www.tutorialspoint.com/mindepth-and-maxdepth-in-linux-find-command-for-limiting-search-to-a-specific-directory)
