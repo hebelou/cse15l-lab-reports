@@ -4,7 +4,7 @@
 ## Step 5
 ![Image](CSE15L-Lab4-Q2.png) Keys pressed: `git clone <command+V> <enter>`. I used `<command+V>` to paste the `ssh` URL to clone the repository and pressed `<enter>` to run the command. 
 ## Step 6
-![Image](CSE15L-Lab4-Q3.png) Keys pressed: `bash test.sh <enter>`. I used `bash` to run the test and pressed `<enter>` to run the command.
+![Image](CSE15L-Lab4-Q3 copy.png) Keys pressed: `bash test.sh <enter>`. I used `bash` to run the test and pressed `<enter>` to run the command.
 ## Step 7
 ![Image](CSE15L-Lab4-Q4.1.png) ![Image](CSE15L-Lab4-Q4.2.png) Keys pressed: `vim L <tab> .j <tab> <enter> 43j e i <right> <delete> 2 <esc> :wq`. I used vim to edit the file, and used `<tab>` to auto-complete the `ListExamples.java` file so that I don't have to type as much. I then used `<enter>` to run the command, and typed `43j e` to skip to the line 43 that needed the change and `e` to the end of the word `index1`. I then pressed `i` to enter insert mode, `<right> <delete> 2` to go right and replace 1 with 2, `<esc>` to get out of insert mode and `:wq` to save and quit vim. 
 ## Step 8
