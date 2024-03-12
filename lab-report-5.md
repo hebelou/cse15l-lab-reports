@@ -11,8 +11,8 @@ Using the advice above, the bug in `grade.sh` can be fixed. The bug is that the 
 ![Image](CSE15L-Lab5-Q1.3.png)
 ![Image](CSE15L-Lab5-Q1.4.png)
 
-The file and directory structure is as follows:  return
-![Image](CSE15L-Lab5-Q1.5.png)  return
+The file and directory structure is as follows:  
+![Image](CSE15L-Lab5-Q1.5.png)  
 The file contents before fixing the bug, full command line ran, and description are as shown and explained above.
 
 ## Part 2
