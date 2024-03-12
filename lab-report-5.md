@@ -16,4 +16,4 @@ The file and directory structure is as follows:
 The file contents before fixing the bug, full command line ran, and description are as shown and explained above.
 
 ## Part 2
-In the second half of this quarter, I learned how to create my own autograder using bash scripts. I also learned how to edit files from the command line and use the terminal only to push the edit to my own repository. Adding on, I understood how to use jdb to debug code. 
+In the second half of this quarter, I learned how to create my own autograder using bash scripts. I also learned how to edit files from the command line and how to only use the terminal to push the edit to my own repository. Adding on, I understood how to use jdb to debug code. 
